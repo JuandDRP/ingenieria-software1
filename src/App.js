@@ -9,7 +9,7 @@ import {
 import PaginaPrincipal from "./componentes/PaginaPrincipal.js";
 import appfirebase from "./credenciales.js";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-
+import SesionIniciada from "./componentes/Inicio.js";
 const auth = getAuth(appfirebase);
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
               path="/"
               element={
                 <>
-
+                <SesionIniciada/>
                 </>
               }
             />
