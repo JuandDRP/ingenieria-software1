@@ -1,0 +1,29 @@
+.estudiante-card {
+    display: flex;
+    align-items: center;
+    background-color: #6F85F6;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+    width: 90%;
+    max-width: 45vh;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.estudiante-card:hover {
+    transform: scale(1.02); /* Efecto de hover */
+}
+
+.estudiante-icon {
+    font-size: 30px;
+    color: #a4b9f8;
+    margin-right: 10px;
+}
+
+.estudiante-nombre {
+    font-size: 16px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+}

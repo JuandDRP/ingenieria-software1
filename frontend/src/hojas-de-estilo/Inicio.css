@@ -1,0 +1,172 @@
+
+
+.inicio-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-panel {
+    flex: 1;
+    padding: 60px 20px 20px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 100%; 
+}
+
+
+.side-panel {
+    width: 280px;
+    padding: 20px;
+    background-color: #8C52FF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+}
+  
+
+  .search-bar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #7c4dff;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+  }
+  
+ 
+  
+  .main-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .option-card {
+    padding: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .option-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .estudiantes { background-color: #3b82f6; }
+  .actividades { background-color: #6366f1; }
+  .ajustes { background-color: #a3e635; }
+  .moviles { background-color: #f87171; }
+  .ayuda { background-color: #10b981; }
+  
+
+  .icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  
+   
+  .profile-image1 {
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .profile-image {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .teacher-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .teacher-info, .teacher-email {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+
+  .section {
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .class-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9e79e9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .collaborator {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .collaborator-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .view-all {
+    color: #ddd;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: right;
+  }

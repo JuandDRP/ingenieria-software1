@@ -1,0 +1,38 @@
+h1{
+    color:#fff;
+}
+.charts-container {
+    display: grid;
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.chart-item{
+    background-color: #F6B632;
+    border-radius: 10%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.chart-container {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    color: white;
+}
+
+.chart-container h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+

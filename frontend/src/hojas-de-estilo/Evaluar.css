@@ -1,0 +1,54 @@
+.charts-container2 {
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+.scroll{
+    margin-top: 15px;
+}
+h2{
+    color:#fff;
+    max-width: 1200px; 
+    text-align: justify;
+}
+.save{
+    background-color: #18DC00;
+    border-color: #18DC00;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+input{
+    align-items: center;
+    align-content: center;
+
+}
+.charts-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;
+}
+
+.chart-item {
+    background-color: #F6B632;
+    border-radius: 10%;
+    padding: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.charts-container2 h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    font-size: large;
+}

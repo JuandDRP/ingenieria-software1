@@ -1,0 +1,76 @@
+.titulo2 h1{
+    margin-left: 400%;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    
+}
+
+.inicio-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #333333;
+}
+
+
+.caja2 {
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    background-color: #333; 
+    width: 80%;
+
+}
+
+.actividad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.actividad:hover {
+    transform: scale(1.1); /* Agranda el elemento */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Añade sombra */
+}
+
+.visual-espacial {
+    background-color: #F6B632;
+}
+
+.linguistica {
+    background-color: #438E39;
+}
+
+.cinetico-corporal {
+    background-color: #18DC00;
+}
+
+.interpersonal {
+    background-color: #57398F;
+}
+
+.logico-matematica {
+    background-color: #7922A7;
+}
+
+.naturalista {
+    background-color: #31B6F7;
+}
+
+.actividad img {
+    width: 200px;
+    height: 160px;
+    margin-top: 10px;
+}
